@@ -1,2 +1,2 @@
 # Battery-Pack-Thermal-Model
-Modelling Of pack characteristics under load
+Used to store data, models, and simulation tools for battery thermal characteristics.
