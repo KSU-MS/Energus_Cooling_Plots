@@ -116,3 +116,9 @@ xline(tempfc_max,'-',{'55C'});                % 55C Time
 xlabel('Time [s]')
 title('Forced Convection: Heat Generation Plots')
 legend("Temp","Current","Heat Generation [Qgen]","Fan Cooling [Qfan]","Heat Energy")
+
+%% Dyno Cooling Data
+
+
+
+ 
