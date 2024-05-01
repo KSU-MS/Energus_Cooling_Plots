@@ -2,7 +2,7 @@ clc;
 clear;
 warning off
 
-f = readtable('temps_real.csv');
+f = readtable(['temps_real_NoFans.csv']);
 f = table2array(f);
 
 high_temp = f(:,4);
