@@ -1,0 +1,23 @@
+FILE INFORMATION
+Name,20240321_224904021
+Comments
+
+HARDWARE,Model,SerialNumber,Version
+Mainframe,DAQ970A,MY58032063,A.02.03-01.00-02.01-00.02-02.00-03-02
+Slot 1,DAQM900A,MY58005300,01.02
+Slot 2,NONE
+Slot 3,NONE
+
+INTERFACE SETTINGS
+LAN,TCPIP0::0.0.0.0::inst0::INSTR
+SOCKET,TCPIP0::0.0.0.0::5025::SOCKET
+HISLIP,TCPIP0::0.0.0.0::hislip0::INSTR
+USB,USB0::10893::20737::MY58032063::0::INSTR
+
+MEASUREMENT,,,,,SCALING,,,,,,,ALARMS,,,,ADVANCED
+Channel,Label,Function,Range,Resolution,Scaling,Gain,Offset,PercentageRef,dBRef,dBmRef,Units,AlarmTest,Low,High,AlarmNum,ChanDelay,Integration,InputResistance,ACBand/Limit,Autozero,OffsetComp,ThermocoupleCheck,TemperatureRef,LowPower,GageFactor,PoissonRatio,StrainResistance,ExcitationVoltage,UnstrainedOffset
+101,T1,Thermocouple Type T (C),(n/a),(n/a),Disabled,+1.000000E+00,+0.000000E+00,Auto,Auto,+6.000000E+02,C,Off,+0.000000E+00,+0.000000E+00,Alarm1,Auto,+1.000000E+00 [nplc],(n/a),(n/a),Enabled,(n/a),Disabled,INT,(n/a),(n/a),(n/a),(n/a),(n/a),(n/a),
+102,T2,Thermocouple Type T (C),(n/a),(n/a),Disabled,+1.000000E+00,+0.000000E+00,Auto,Auto,+6.000000E+02,C,Off,+0.000000E+00,+0.000000E+00,Alarm1,Auto,+1.000000E+00 [nplc],(n/a),(n/a),Enabled,(n/a),Disabled,INT,(n/a),(n/a),(n/a),(n/a),(n/a),(n/a),
+103,T3,Thermocouple Type T (C),(n/a),(n/a),Disabled,+1.000000E+00,+0.000000E+00,Auto,Auto,+6.000000E+02,C,Off,+0.000000E+00,+0.000000E+00,Alarm1,Auto,+1.000000E+00 [nplc],(n/a),(n/a),Enabled,(n/a),Disabled,INT,(n/a),(n/a),(n/a),(n/a),(n/a),(n/a),
+104,T4,Thermocouple Type T (C),(n/a),(n/a),Disabled,+1.000000E+00,+0.000000E+00,Auto,Auto,+6.000000E+02,C,Off,+0.000000E+00,+0.000000E+00,Alarm1,Auto,+1.000000E+00 [nplc],(n/a),(n/a),Enabled,(n/a),Disabled,INT,(n/a),(n/a),(n/a),(n/a),(n/a),(n/a),
+105,AM1,Thermocouple Type T (C),(n/a),(n/a),Disabled,+1.000000E+00,+0.000000E+00,Auto,Auto,+6.000000E+02,C,Off,+0.000000E+00,+0.000000E+00,Alarm1,Auto,+1.000000E+00 [nplc],(n/a),(n/a),Enabled,(n/a),Enabled,INT,(n/a),(n/a),(n/a),(n/a),(n/a),(n/a),
